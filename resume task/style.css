@@ -1,0 +1,74 @@
+body{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 1.4rem;
+    height: 1500px;
+
+}
+.center-text{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.top-div{
+    height: 400px;
+    background-color:bisque;
+    text-align: center;
+}
+.profile-pic{
+    background-color: darkgray;
+    height:200px;
+    width: 200px;
+    object-fit:fill;
+    border-radius: 50%;
+    border: 7px dotted blue;
+    border-width: thick;
+    padding:4px;
+}
+.name{
+    background-color: blueviolet;
+    padding: 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+
+}
+.icon{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    display: table-cell;
+    border: 3px dashed blueviolet;
+    
+
+}
+#major{
+font-size:large;
+font-weight:bold;
+}
+#exp{
+font-size:large;
+font-weight:bold;
+}
+.container-1,.container-2{
+    padding:4% ;
+    width: 41%;
+    display: inline-block;
+    height: 1500px;
+}
+.container-1{
+    border-right: 1px solid #ccc;
+}
+.container-2{
+    float: right;
+}
+h1{
+    left: 60px;
+    bottom: 50px;
+    position: relative;
+    font-weight: normal;
+    display: inline-block;
+    margin:0;
+    
+}
+p{
+    margin-bottom: 20px;
+}
